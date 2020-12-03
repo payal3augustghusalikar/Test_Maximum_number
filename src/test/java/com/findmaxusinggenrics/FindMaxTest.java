@@ -21,13 +21,13 @@ public class FindMaxTest {
 
     @Test
     public void givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum() {
-        Integer max = findMax.findMaxValue(20, 400, 105);
+        Integer max = findMax.findMaxValue(20, 400, 104);
         Assert.assertEquals((Integer) 400, max);
     }
 
     @Test
     public void givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum() {
-        Integer max = findMax.findMaxValue(10,20,60);
+        Integer max = findMax.findMaxValue(10,20,90);
         Assert.assertEquals((Integer) 60,max);
     }
 }
