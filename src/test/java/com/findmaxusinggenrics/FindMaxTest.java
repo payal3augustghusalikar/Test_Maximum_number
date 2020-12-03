@@ -9,7 +9,7 @@ public class FindMaxTest {
 
     @Before
     public void initData() {
-        System.out.println("Maximum number is : ");
+        System.out.println("Maximum is  : ");
         findMax = new FindMax();
     }
 
@@ -47,5 +47,11 @@ public class FindMaxTest {
     public void givenThirdFloatAsMaximum_ShouldReturnThirdFloatAsMaximum() {
         Float max1 = findMax.findMaxValue(20f, 30f, 40f);
         Assert.assertEquals((Float) 40f, max1);
+    }
+
+    @Test
+    public void givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum() {
+        String max2 = findMax.findMaxValue("tendulkar", "virat", "dhoni");
+        Assert.assertEquals((String) "tendulkar", max2);
     }
 }
