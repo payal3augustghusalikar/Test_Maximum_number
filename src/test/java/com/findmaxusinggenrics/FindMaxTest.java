@@ -27,7 +27,7 @@ public class FindMaxTest {
 
     @Test
     public void givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum() {
-        Integer max = findMax.findMaxValue(10,20,90);
+        Integer max = findMax.findMaxValue(10, 20, 90);
         Assert.assertEquals((Integer) 90, max);
     }
 
@@ -52,6 +52,12 @@ public class FindMaxTest {
     @Test
     public void givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum() {
         String max2 = findMax.findMaxValue("tendulkar", "virat", "dhoni");
+        Assert.assertEquals((String) "tendulkar", max2);
+    }
+
+    @Test
+    public void givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum() {
+        String max2 = findMax.findMaxValue("ponting", "tendulkar", "virat");
         Assert.assertEquals((String) "tendulkar", max2);
     }
 }
