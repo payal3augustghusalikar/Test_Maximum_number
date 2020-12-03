@@ -7,62 +7,47 @@ import org.junit.Test;
 public class FindMaxTest {
     FindMax findMax;
 
-    @Before
-    public void initData() {
-        findMax = new FindMax();
-    }
 
     @Test
     public void givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax() {
-        Integer max = findMax.findMaxValue(200, 25, 105);
-        Assert.assertEquals((Integer) 200, max);
+        Assert.assertSame( 200, findMax.findMaxValue(200, 25, 105));
     }
 
     @Test
     public void givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum() {
-        Integer max = findMax.findMaxValue(20, 400, 104);
-        Assert.assertEquals((Integer) 400, max);
+        Assert.assertEquals(400, findMax.findMaxValue(20, 400, 104));
     }
 
     @Test
     public void givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum() {
-        Integer max = findMax.findMaxValue(10, 20, 90);
-        Assert.assertEquals((Integer) 90, max);
+        Assert.assertEquals( 90, findMax.findMaxValue(10, 20, 90));
     }
 
     @Test
     public void givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum() {
-        Float max1 = findMax.findMaxValue(20f, 15f, 10f);
-        Assert.assertEquals((Float) 20f, max1);
+        Assert.assertEquals(20f, findMax.findMaxValue(20f, 15f, 10f));
     }
 
     @Test
     public void givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum() {
-        Float max1 = findMax.findMaxValue(22f, 30f, 10f);
-        Assert.assertEquals((Float) 30f, max1);
+        Assert.assertEquals((Float) 30f,findMax.findMaxValue(22f, 30f, 10f));
     }
 
     @Test
     public void givenThirdFloatAsMaximum_ShouldReturnThirdFloatAsMaximum() {
-        Float max1 = findMax.findMaxValue(20f, 30f, 40f);
-        Assert.assertEquals((Float) 40f, max1);
+        Assert.assertEquals((Float) 40f, findMax.findMaxValue(20f, 30f, 40f));
     }
 
-    /*@Test
+    @Test
     public void givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum() {
-        String max2 = findMax.findMaxValue("tendulkar", "virat", "dhonii");
-        Assert.assertEquals((String) "tendulkar", max2);
+        Assert.assertEquals((String) "tendulkar", findMax.findMaxValue("tendulkar", "virat", "dhonii"));
     }
-
     @Test
     public void givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum() {
-        String max2 = findMax.findMaxValue("ponting", "salmankhan", "virat");
-        Assert.assertEquals((String) "salmankhan", max2);
+        Assert.assertEquals((String) "salmankhan", findMax.findMaxValue("ponting", "salmankhan", "virat"));
     }
-
     @Test
     public void givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum() {
-        String max2 = findMax.findMaxValue("rahul", "sachin", "kedarnath");
-        Assert.assertEquals((String) "kedarnath", max2);
-    }*/
+        Assert.assertEquals((String) "kedarnath", findMax.findMaxValue("rahul", "sachin", "kedarnath"));
+    }
 }

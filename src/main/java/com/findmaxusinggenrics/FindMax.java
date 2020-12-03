@@ -1,25 +1,24 @@
 package com.findmaxusinggenrics;
 
-public class FindMax {
-    public static void main(String[] args) {
-        System.out.println("***** Welcome to arithmetic number computation ****");
-    }
+public class FindMax<E extends Comparable> {
+    E firstValue;
+    E secondValue;
+    E thirdValue;
 
-    /* Generic Method to Find the Max Value of passed Arguments*/
+    public FindMax(E firstValue, E secondValue, E thirdValue) {
+        this.firstValue = firstValue;
+        this.secondValue = secondValue;
+        this.thirdValue = thirdValue;
+    }
 
     public <E extends Comparable> E findMaxValue(E firstValue, E secondValue, E thirdValue) {
-       E max = firstValue;
-        if (secondValue.compareTo(max) > 0) {
-            max = secondValue; }
-
-        if (thirdValue.compareTo(max) > 0) {
-            max = thirdValue;
-        }
-        printMax(max);
-        return max;
-    }
-
-    public <E> void printMax(E max) {
-        System.out.println("Max Value = " + max);
+        if (firstValue.compareTo(secondValue) > 0 && firstValue.compareTo(thirdValue) > 0)
+            return  firstValue;
+        else if(secondValue.compareTo(thirdValue) > 0)
+            return secondValue;
+        else
+            return thirdValue;
     }
 }
+
+
