@@ -17,8 +17,25 @@ public class FindMax {
         return max;
     }
 
-     void printMax(Integer max) {
+    public Float findMaxValue(Float firstNumber, Float secondNumber, Float thirdNumber) {
+        Float max = firstNumber;
+        if (secondNumber.compareTo(max) > 0) {
+            max = secondNumber;
+        }
+        if (thirdNumber.compareTo(max) > 0) {
+            max = thirdNumber;
+        }
+        printMax(max);
+        return max;
+    }
+
+
+    void printMax(Integer max) {
         System.out.println("Maximum is  = " + max);
+    }
+
+    void printMax(Float max) {
+        System.out.println("Largest = " + max);
     }
 }
 
