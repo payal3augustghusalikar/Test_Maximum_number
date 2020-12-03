@@ -31,11 +31,11 @@ public class FindMax {
 
 
     void printMax(Integer max) {
-        System.out.println("Maximum is  = " + max);
+        System.out.println("Maximum from integer = " + max);
     }
 
     void printMax(Float max) {
-        System.out.println("Largest = " + max);
+        System.out.println("Maximum from float = " + max);
     }
 }
 
