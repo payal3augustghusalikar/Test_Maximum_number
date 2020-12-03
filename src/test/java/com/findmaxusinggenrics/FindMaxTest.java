@@ -30,4 +30,10 @@ public class FindMaxTest {
         Integer max = findMax.findMaxValue(10,20,90);
         Assert.assertEquals((Integer) 60,max);
     }
+
+    @Test
+    public void givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum() {
+        Float max1 = findMax.findMaxValue(20f, 15f, 10f);
+        Assert.assertEquals((Float) 20f, max1);
+    }
 }

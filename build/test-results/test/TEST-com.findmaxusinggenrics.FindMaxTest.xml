@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-12-03T10:32:15" hostname="DESKTOP-S0RN8B8" time="0.014">
+<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-03T11:39:46" hostname="DESKTOP-S0RN8B8" time="0.025">
   <properties/>
-  <testcase name="givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.012"/>
-  <testcase name="givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.0"/>
-  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.0"/>
+  <testcase name="givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.025"/>
   <system-out><![CDATA[Maximum number is : 
-Maximum is  = 60
-Maximum number is : 
-Maximum is  = 400
-Maximum number is : 
-Maximum is  = 200
+Largest = 20.0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
