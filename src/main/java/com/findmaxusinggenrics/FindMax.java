@@ -18,7 +18,7 @@ public class FindMax {
     }
 
      void printMax(Integer max) {
-        System.out.println("Largest = " + max);
+        System.out.println("Maximum is  = " + max);
     }
 }
 
