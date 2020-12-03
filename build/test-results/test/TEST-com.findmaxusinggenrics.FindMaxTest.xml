@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-12-03T12:32:11" hostname="DESKTOP-S0RN8B8" time="0.045">
+<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-03T14:54:14" hostname="DESKTOP-S0RN8B8" time="0.018">
   <properties/>
-  <testcase name="givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.008"/>
-  <testcase name="givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
-  <testcase name="givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.003"/>
-  <testcase name="givenThirdFloatAsMaximum_ShouldReturnThirdFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.002"/>
-  <testcase name="givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.002"/>
-  <testcase name="givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.014"/>
-  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.006"/>
-  <system-out><![CDATA[Maximum is  : 
-Maximum from float = 20.0
-Maximum is  : 
-Maximum from float = 30.0
-Maximum is  : 
-Maximum from integer = 90
-Maximum is  : 
-Maximum from float = 40.0
-Maximum is  : 
-Maximum from integer = 400
-Maximum is  : 
-Largest Letter is = tendulkar
-Maximum is  : 
-Maximum from integer = 200
+  <testcase name="givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.009"/>
+  <testcase name="givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.002"/>
+  <testcase name="givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
+  <testcase name="givenThirdFloatAsMaximum_ShouldReturnThirdFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.0"/>
+  <testcase name="givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
+  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.002"/>
+  <system-out><![CDATA[Max Value = 20.0
+Max Value = 30.0
+Max Value = 90
+Max Value = 40.0
+Max Value = 400
+Max Value = 200
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -5,57 +5,43 @@ public class FindMax {
         System.out.println("***** Welcome to arithmetic number computation ****");
     }
 
-    public Integer findMaxValue(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
-        Integer max = firstNumber;
-        if (secondNumber.compareTo(max) > 0) {
-            max = secondNumber;
-        }
-        if (thirdNumber.compareTo(max) > 0) {
-            max = thirdNumber;
-        }
-        printMax(max);
-        return max;
-    }
+    /* Generic Method to Find the Max Value of passed Arguments*/
 
-    public Float findMaxValue(Float firstNumber, Float secondNumber, Float thirdNumber) {
-        Float max = firstNumber;
-        if (secondNumber.compareTo(max) > 0) {
-            max = secondNumber;
-        }
-        if (thirdNumber.compareTo(max) > 0) {
-            max = thirdNumber;
+    public <E extends Comparable> E findMaxValue(E firstValue, E secondValue, E thirdValue) {
+       E max = firstValue;
+        if (secondValue.compareTo(max) > 0) {
+            max = secondValue; }
+
+        if (thirdValue.compareTo(max) > 0) {
+            max = thirdValue;
         }
         printMax(max);
         return max;
     }
 
-    public String findMaxValue(String firstLetter, String secondLetter, String thirdLetter) {
-        int max = firstLetter.length();
-        String letter = firstLetter;
-        if (secondLetter.length() > max) {
-            max = secondLetter.length();
-            letter = secondLetter;
-        }
-        if (thirdLetter.length() > max) {
-            max = thirdLetter.length();
-            letter = thirdLetter;
-        }
-        printMax(letter);
-        return letter;
-    }
-
-
-    void printMax(Integer max) {
-        System.out.println("Maximum from integer = " + max);
-    }
-
-    void printMax(Float max) {
-        System.out.println("Maximum from float = " + max);
-    }
-
-    void printMax(String letter) {
-        System.out.println("Largest Letter is = " + letter);
+    public <E> void printMax(E max) {
+        System.out.println("Max Value = " + max);
     }
 }
+
+
+
+
+   /* public <E extends Comparable> E findMaxValue(E firstValue, E secondValue, E thirdValue){
+        E max = firstValue;
+        if (secondValue.compareTo(max) > 0) {
+            max = secondValue;
+        }
+        if (thirdValue.compareTo(max) > 0) {
+            max = thirdValue;
+        }
+        printMax(max);
+        return max;
+    }
+
+    public <E> void printMax(E max){
+        System.out.println("Max Value = "+max);
+    }*/
+
 
 
