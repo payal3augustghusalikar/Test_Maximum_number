@@ -60,4 +60,10 @@ public class FindMaxTest {
         String max2 = findMax.findMaxValue("ponting", "tendulkar", "virat");
         Assert.assertEquals((String) "tendulkar", max2);
     }
+
+    @Test
+    public void givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum() {
+        String max2 = findMax.findMaxValue("rahul", "sachin", "kedarnath");
+        Assert.assertEquals((String) "kedarnath", max2);
+    }
 }
