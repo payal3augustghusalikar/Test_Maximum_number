@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-03T11:54:55" hostname="DESKTOP-S0RN8B8" time="0.065">
+<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-03T12:23:43" hostname="DESKTOP-S0RN8B8" time="0.023">
   <properties/>
-  <testcase name="givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.008"/>
-  <testcase name="givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.011"/>
-  <testcase name="givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.015"/>
-  <testcase name="givenThirdFloatAsMaximum_ShouldReturnThirdFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.004"/>
-  <testcase name="givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.002"/>
-  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.009"/>
+  <testcase name="givenFirstFloatAsMaximum_ShouldReturnFirstFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.013"/>
+  <testcase name="givenSecondFloatAsMaximum_ShouldReturnSecondFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.0"/>
+  <testcase name="givenThirdNumberAsMaximum_ShouldReturnThirdNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
+  <testcase name="givenThirdFloatAsMaximum_ShouldReturnThirdFloatAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
+  <testcase name="givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
+  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.002"/>
   <system-out><![CDATA[Maximum number is : 
 Maximum from float = 20.0
 Maximum number is : 
 Maximum from float = 30.0
 Maximum number is : 
-Maximum from integer  = 90
+Maximum from integer = 90
 Maximum number is : 
 Maximum from float = 40.0
 Maximum number is : 
-Maximum from integer  = 400
+Maximum from integer = 400
 Maximum number is : 
-Maximum from integer  = 200
+Maximum from integer = 200
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

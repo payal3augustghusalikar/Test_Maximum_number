@@ -29,6 +29,21 @@ public class FindMax {
         return max;
     }
 
+    public String findMaxValue(String firstLetter, String secondLetter, String thirdLetter) {
+        int max = firstLetter.length();
+        String letter = firstLetter;
+        if (secondLetter.length() > max) {
+            max = secondLetter.length();
+            letter = secondLetter;
+        }
+        if (thirdLetter.length() > max) {
+            max = thirdLetter.length();
+            letter = thirdLetter;
+        }
+        printMax(letter);
+        return letter;
+    }
+
 
     void printMax(Integer max) {
         System.out.println("Maximum from integer = " + max);
@@ -36,6 +51,10 @@ public class FindMax {
 
     void printMax(Float max) {
         System.out.println("Maximum from float = " + max);
+    }
+
+    void printMax(String letter) {
+        System.out.println("Largest Letter is = " + letter);
     }
 }
 
