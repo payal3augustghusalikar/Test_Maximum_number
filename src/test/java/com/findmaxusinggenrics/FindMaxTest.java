@@ -18,4 +18,10 @@ public class FindMaxTest {
         Integer max = findMax.findMaxValue(200, 25, 105);
         Assert.assertEquals((Integer) 200, max);
     }
+
+    @Test
+    public void givenSecondNumberAsMaximum_ShouldReturn_SecondNumberAsMaximum() {
+        Integer max = findMax.findMaxValue(20, 400, 105);
+        Assert.assertEquals((Integer) 400, max);
+    }
 }

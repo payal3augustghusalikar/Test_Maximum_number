@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-03T08:25:47" hostname="DESKTOP-S0RN8B8" time="0.007">
+<testsuite name="com.findmaxusinggenrics.FindMaxTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-12-03T09:55:48" hostname="DESKTOP-S0RN8B8" time="0.009">
   <properties/>
-  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.007"/>
+  <testcase name="givenSecondNumberAsLarge_ShouldReturn_SecondNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.007"/>
+  <testcase name="givenFirstNumberAsLarge_ShouldReturn_FirstNumberAsMax" classname="com.findmaxusinggenrics.FindMaxTest" time="0.001"/>
   <system-out><![CDATA[Maximum number is : 
+Maximum is  = 400
+Maximum number is : 
 Maximum is  = 200
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
